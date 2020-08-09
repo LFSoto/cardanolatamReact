@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Navegacion from "../navigation/navigation.jsx";
 import styled from "@emotion/styled";
 import { FaBars } from "react-icons/fa";
@@ -86,11 +86,9 @@ const Header = () => {
     <Header id="Nav">
       <Divider>
         <NavContainer className="navContainer">
-          <Router>
-            <NavLink to="/" className="logo">
-              <Logo src={logo} alt="Logotipo LATAM" width="175" height="85" />
-            </NavLink>
-          </Router>
+          <NavLink to="/index" className="logo">
+            <Logo src={logo} alt="Logotipo LATAM" width="175" height="85" />
+          </NavLink>
           <Navegacion />
           <ResponsiveMenu id="transicion" htmlFor="check" className="checkbtn">
             <CheckLogo type="checkbox" id="check" />
