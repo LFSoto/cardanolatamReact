@@ -43,16 +43,16 @@ const NvLink = styled(NavLink)`
 const Navigation = () => {
   return (
     <Rou>
-      <NvLink to={"/index"} activeClassName="pagina-actual">
+      <NvLink exact to={"/"} activeClassName="pagina-actual">
         Inicio
       </NvLink>
-      <NvLink to={"/about"} activeClassName="pagina-actual">
+      <NvLink exact to={"/about"} activeClassName="pagina-actual">
         Sobre nosotros
       </NvLink>
-      <NvLink to={"/faqs"} activeClassName="pagina-actual">
+      <NvLink exact to={"/faqs"} activeClassName="pagina-actual">
         Preguntas frecuentes
       </NvLink>
-      <NvLink to={"/contact"} activeClassName="pagina-actual">
+      <NvLink exact to={"/contact"} activeClassName="pagina-actual">
         Contáctanos
       </NvLink>
     </Rou>

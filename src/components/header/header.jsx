@@ -86,7 +86,7 @@ const Header = () => {
     <Header id="Nav">
       <Divider>
         <NavContainer className="navContainer">
-          <NavLink to="/index" className="logo">
+          <NavLink to="/" className="logo">
             <Logo src={logo} alt="Logotipo LATAM" width="175" height="85" />
           </NavLink>
           <Navegacion />
