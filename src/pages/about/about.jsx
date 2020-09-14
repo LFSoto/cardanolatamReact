@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../../components/layout/layout";
 import styled from "@emotion/styled";
+import { useTranslation } from "react-i18next";
 
 const AboutUs = () => {
   const AboutContainer = styled.div`
@@ -35,28 +36,26 @@ const AboutUs = () => {
     }
   `;
 
+  const [t, i18n] = useTranslation("global");
+
   return (
     <Layout>
       <AboutContainer>
         <h3>
-          <span>¿Quienes somos?</span>
+          <span>{t("about.about-title")}</span>
         </h3>
 
         <div>
           <p>
-            Somos un grupo de <span>jóvenes profesionales</span>, entusiastas
-            del proyecto <span>Cardano</span>, que tiene como principal meta
-            convertirse en el pool que los latinoamericanos merecen,
-            comprometidos a ofrecer un servicio de gran confiabilidad y
-            seguridad. <br />
+            {t("about.about-p1.0")}
+            <span>{t("about.about-p1.1")}</span>
+            {t("about.about-p1.2")}
+            <span>{t("about.about-p1.3")}</span>
+            {t("about.about-p1.4")} <br />
             <br />
-            Contamos con un{" "}
-            <span>personal de diversas áreas profesionales</span> como manejo de
-            servidores, desarrollo web, diseño gráfico, administración de
-            negocios y finanzas, todo esto con el fin de abarcar los diferentes{" "}
-            <span>puntos de interés</span> que cada uno de nuestros clientes
-            pueda tener y poder darles el mejor consejo para responder cualquier
-            duda que pueda surgir.
+            {t("about.about-p2.0")}
+            <span>{t("about.about-p2.1")}</span> {t("about.about-p2.2")}
+            <span>{t("about.about-p2.3")}</span> {t("about.about-p2.4")}
           </p>
         </div>
       </AboutContainer>

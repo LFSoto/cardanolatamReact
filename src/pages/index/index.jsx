@@ -84,9 +84,6 @@ const Index = () => {
         <RankContainer>
           <div>
             <div>
-              <h1>
-                RANK: <span>TOP 25</span>
-              </h1>
               <BorderImg alt="bordes" src={border} />
               <BorderContainer>
                 <ul>
@@ -120,8 +117,9 @@ const Index = () => {
               </BorderContainer>
             </div>
             <BorderMessage>
-              *Trabajamos con la <span>comisión mínima</span> estipulada por
-              CARDANO
+              {t("border-msg.border-message.0")}{" "}
+              <span>{t("border-msg.border-message.1")} </span>
+              {t("border-msg.border-message.2")}
             </BorderMessage>
           </div>
         </RankContainer>
@@ -129,7 +127,7 @@ const Index = () => {
 
       <br />
       <Slogan>
-        <i>Mejorando las finanzas de Latinoamérica y el Mundo</i>
+        <i>{t("index.index-slogan")}</i>
       </Slogan>
       <Content1 />
       <Content2 />

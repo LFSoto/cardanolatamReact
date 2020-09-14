@@ -1,6 +1,6 @@
 {
   "tlgrm": {
-    "tlgrm-msg": "Si"
+    "tlgrm-msg": "¡Si eres delegador, únete a nuestro telegram para ganar recompensas exclusivas!"
   },
 
   "navigation": {
@@ -26,5 +26,128 @@
     "boder-PerComision-content": "1.5%",
     "boder-FixComision-label": "Comision fija*: ",
     "boder-FixComision-content": "340 ADAs"
+  },
+
+  "border-msg": {
+    "border-message": [
+      "*Trabajamos con la",
+      "comisión mínima",
+      "estipulada por CARDANO"
+    ]
+  },
+
+  "index": {
+    "index-slogan": "Mejorando las finanzas de Latinoamérica y el Mundo"
+  },
+
+  "content1": {
+    "content1-title": "100% Latinos",
+    "content1-title-header": "Pool manejado por latinos para latinos ",
+    "content1-p1": [
+      "Vivimos la situación de latinoamérica y es por ello que tenemos una",
+      " baja tasa de comisión ",
+      "para",
+      " maximizar sus ganancias."
+    ],
+    "content1-title2": "¡UNIDOS SOMOS MÁS FUERTES!",
+    "content1-p2": [
+      " Cardano es la perfecta oportunidad para",
+      " respaldar nuestras finanzas.",
+      " Nuestros canales de comunicación están administrados por latinos lo cual garantiza un",
+      " ambiente cultural compatible",
+      " con nuestra identidad."
+    ]
+  },
+
+  "content2": {
+    "content2-title": "Beneficios",
+    "content2-title-header": ["¡Empiece a generar ", "ingresos pasivos"],
+    "content2-p1": [
+      "Nuestro servicio está ",
+      "abierto a TODOS los usuarios ",
+      ", ya sean grandes inversores o inversores primerizos.",
+      "Baja comisión ",
+      "sin comprometer la calidad del nodo."
+    ],
+    "content2-p2": [
+      "Incentivos extra ",
+      "a nuestros delegadores como sorteos mensuales con un porcentaje de las ganancias del nodo. ",
+      "Asociados a una comunidad abierta de usuarios latinoamericanos donde se ",
+      "comparten conocimientos, experiencias y las últimas noticias ",
+      "sobre CARDANO. ",
+      "Contamos con ",
+      "infraestructura tecnológica de alto nivel ",
+      "para satisfacer todas la necesidades de nuestro servicio."
+    ]
+  },
+
+  "faqs": {
+    "faq1-title": "¿Qué es un pool de minería?",
+    "faq1": [
+      "Un pool es una ",
+      "computadora encargada de verificar transacciones ",
+      "de la red Cardano. Como Cardano es una red descentralizada todos los pools ",
+      "compiten ",
+      "unos contra otros por ser el encargado de validar las transacciones."
+    ],
+    "faq2-title": "¿Qué es minar ADAs?",
+    "faq2": [
+      "Para que la red Cardano funcione se necesitan computadoras que ",
+      "validen las transacciones ",
+      ", a este proceso se le denomina minería. A la computadora que logre validar transacciones se le ",
+      "recompensa con incentivos en ADAs ",
+      "incentives in ADA.",
+      ". El protocolo de Cardano asigna a un pool como el encargado de minar una transacción por medio de una lotería donde las probabilidades de ganar",
+      "dependen del monto total de ADAs que tenga el pool en stake ",
+      ", es decir al monto de ADAs que tenga delegadas."
+    ],
+    "faq3-title": "¿Qué es hacer staking?",
+    "faq3": [
+      "Staking es una forma de ",
+      "delegar confianza ",
+      "a un pool de Cardano para que este tenga ",
+      "mayores probabilidades de minar transacciones",
+      ". Delegar esta confianza tiene ",
+      "recompensas ",
+      "en modo de ingresos pasivos que se generan a partir de las ganancias que tiene el pool minando ADAs."
+    ],
+    "faq4-title": "¿Cuántas ganancias puedo obtener?",
+    "faq4": [
+      "La cantidad de ingresos pasivos dependerá de ",
+      "cuántas ADAs delegues ",
+      "y de cuánto ",
+      "porcentaje de ganancias que el pool está dispuesto a repartir ",
+      "entre sus delegadores. Para nuestro pool la ganancia esperada es del TBD."
+    ],
+    "faq5-title": "Calcular tus ganacias",
+    "faq5": ["Calcula tus ganancias con Cardano ", "aquí."]
+  },
+
+  "about": {
+    "about-title": "¿Quienes somos?",
+    "about-p1": [
+      "Somos un grupo de ",
+      "jóvenes profesionales",
+      ", entusiastas del ",
+      "proyecto Cardano",
+      ", que tiene como principal meta convertirse en el pool que los latinoamericanos merecen, comprometidos a ofrecer un servicio de gran confiabilidad y seguridad."
+    ],
+    "about-p2": [
+      "Contamos con un ",
+      "personal de diversas áreas profesionales ",
+      "como manejo de servidores, desarrollo web, diseño gráfico, administración de negocios y finanzas, todo esto con el fin de abarcar los diferentes ",
+      "puntos de interés ",
+      "que cada uno de nuestros clientes pueda tener y poder darles el mejor consejo para responder cualquier duda que pueda surgir."
+    ]
+  },
+
+  "contact": {
+    "contact-title": "Contáctanos",
+    "contact-p1": [
+      "Para más informacion, por favor contáctanos al correo ",
+      "cardanolatam@gmail.com",
+      "Te invitamos a unirte a nuestro grupo de ",
+      "Telegram"
+    ]
   }
 }

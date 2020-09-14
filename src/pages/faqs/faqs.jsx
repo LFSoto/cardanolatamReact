@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../../components/layout/layout";
 import styled from "@emotion/styled";
+import { useTranslation } from "react-i18next";
 
 const Faqs = () => {
   const FaqsDiv = styled.div`
@@ -27,78 +28,73 @@ const Faqs = () => {
     }
   `;
 
+  const [t, i18n] = useTranslation("global");
+
   return (
     <Layout>
       <FaqsDiv>
         <ul>
           <li>
             <h3>
-              <span>¿Qué es un pool de minería?</span>
+              <span>{t("faqs.faq1-title")}</span>
             </h3>
             <p>
-              Un pool es una{" "}
-              <span> computadora encargada de verificar transacciones </span> de
-              la red Cardano. Como Cardano es una red descentralizada todos los
-              pools <span>compiten</span> unos contra otros por ser el encargado
-              de validar las transacciones.
+              {t("faqs.faq1.0")}
+              <span> {t("faqs.faq1.1")} </span> {t("faqs.faq1.1")}{" "}
+              <span>{t("faqs.faq1.2")}</span>
+              {t("faqs.faq1.3")}
             </p>
           </li>
           <li>
             <h3>
-              <span>¿Qué es minar ADAs?</span>
+              <span>{t("faqs.faq2-title")}</span>
             </h3>
             <p>
-              Para que la red Cardano funcione se necesitan computadoras que
-              <span> validen las transacciones </span>, a este proceso se le
-              denomina minería. A la computadora que logre validar transacciones
-              se le <span>recompensa con incentivos en ADAs</span>. El protocolo
-              de Cardano asigna a un pool como el encargado de minar una
-              transacción por medio de una lotería donde las probabilidades de
-              ganar{" "}
-              <span>
-                dependen del monto total de ADAs que tenga el pool en stake
-              </span>
-              , es decir al monto de ADAs que tenga delegadas.
+              {t("faqs.faq2.0")}
+              <span> {t("faqs.faq2.1")} </span>
+              {t("faqs.faq2.2")}
+              <span>{t("faqs.faq2.3")}</span>
+              {t("faqs.faq2.4")}
+              <span>{t("faqs.faq2.5")}</span>
+              {t("faqs.faq2.6")}
             </p>
           </li>
           <li>
             <h3>
-              <span>¿Qué es hacer staking?</span>
+              <span>{t("faqs.faq3-title")}</span>
             </h3>
             <p>
-              Staking es una forma de <span>delegar confianza</span> a un pool
-              de Cardano para que este tenga{" "}
-              <span>mayores probabilidades de minar transacciones</span>.
-              Delegar esta confianza tiene <span>recompensas</span> en modo de
-              ingresos pasivos que se generan a partir de las ganancias que
-              tiene el pool minando ADAs.
+              {t("faqs.faq3.0")}
+              <span>{t("faqs.faq3.1")}</span>
+              {t("faqs.faq3.2")}
+              <span>{t("faqs.faq3.3")}</span>
+              {t("faqs.faq3.4")} <span>{t("faqs.faq3.5")}</span>
+              {t("faqs.faq3.6")}
             </p>
           </li>
           <li>
             <h3>
-              <span>¿Cuántas ganancias puedo obtener?</span>
+              <span>{t("faqs.faq4-title")}</span>
             </h3>
             <p>
-              La cantidad de ingresos pasivos dependerá de{" "}
-              <span>cuántas ADAs delegues </span> y de cuánto{" "}
-              <span>
-                porcentaje de ganancias que el pool está dispuesto a repartir
-              </span>{" "}
-              entre sus delegadores. Para nuestro pool la ganancia esperada es
-              del TBD.
+              {t("faqs.faq4.0")}
+              <span>{t("faqs.faq4.1")}</span>
+              {t("faqs.faq4.2")}
+              <span>{t("faqs.faq4.3")}</span>
+              {t("faqs.faq4.4")}
             </p>
           </li>
           <li>
             <h3>
-              <span>Calcular tus ganacias </span>
+              <span>{t("faqs.faq5-title")}</span>
             </h3>
             <p>
-              Calcula tus ganancias con Cardano{" "}
+              {t("faqs.faq5.0")}
               <a
                 href="https://testnets.cardano.org/en/shelley/tools/staking-calculator/"
                 target="popup"
               >
-                <span>aquí.</span>
+                <span>{t("faqs.faq5.1")}</span>
               </a>
             </p>
           </li>

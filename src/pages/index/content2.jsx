@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
+import { useTranslation } from "react-i18next";
 
 const Content2 = () => {
   const ContentDiv2 = styled.div`
@@ -22,35 +23,38 @@ const Content2 = () => {
     }
   `;
 
+  const [t, i18n] = useTranslation("global");
+
   return (
     <ContentDiv2>
       <h3>
-        <span>Beneficios</span>
+        <span>{t("content2.content2-title")}</span>
       </h3>
       <p>
-        ¡Empiece a generar <span>ingresos pasivos</span>!
+        {t("content2.content2-title-header.0")}
+        <span>{t("content2.content2-title-header.1")}</span>!
         <br />
         <br />
         <br />
-        Nuestro servicio está <span>abierto a TODOS los usuarios</span>, ya sean
-        grandes inversores o inversores primerizos.
+        {t("content2.content2-p1.0")}
+        <span>{t("content2.content2-p1.1")}</span>
+        {t("content2.content2-p1.2")}
         <br />
         <br />
-        <span>Baja comisión</span> sin comprometer la calidad del nodo.
+        <span>{t("content2.content2-p1.3")}</span>
+        {t("content2.content2-p1.4")}
         <br />
         <br />
-        <span>Incentivos extra</span> a nuestros delegadores como sorteos
-        mensuales con un porcentaje de las ganancias del nodo. <br /> <br />
-        Asociados a una comunidad abierta de usuarios latinoamericanos donde se{" "}
-        <span>
-          comparten conocimientos, experiencias y las últimas noticias
-        </span>{" "}
-        sobre CARDANO. <br /> <br />
-        Contamos con <span>
-          {" "}
-          infraestructura tecnológica de alto nivel
-        </span>{" "}
-        para satisfacer todas la necesidades de nuestro servicio.
+        <span>{t("content2.content2-p2.0")}</span>
+        {t("content2.content2-p2.1")}
+        <br /> <br />
+        {t("content2.content2-p2.2")}
+        <span>{t("content2.content2-p2.3")}</span>
+        {t("content2.content2-p2.4")}
+        <br /> <br />
+        {t("content2.content2-p2.5")}
+        <span>{t("content2.content2-p2.6")}</span>
+        {t("content2.content2-p2.7")}
       </p>
     </ContentDiv2>
   );

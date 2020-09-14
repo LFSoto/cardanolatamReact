@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
+import { useTranslation } from "react-i18next";
 
 const Content1 = () => {
   const Content1Div = styled.div`
@@ -20,25 +21,29 @@ const Content1 = () => {
     }
   `;
 
+  const [t, i18n] = useTranslation("global");
+
   return (
     <Content1Div>
       <h3>
-        <span>100% Latinos</span>
+        <span>{t("content1.content1-title")}</span>
       </h3>
       <p>
-        Pool manejado por latinos para latinos <br />
+        {t("content1.content1-title-header")}
         <br />
         <br />
-        Vivimos la situación de latinoamérica y es por ello que tenemos una
-        <span> baja tasa de comisión </span> para
-        <span> maximizar sus ganancias.</span> <br />
         <br />
-        <span>¡UNIDOS SOMOS MÁS FUERTES!</span>
-        <br /> Cardano es la perfecta oportunidad para
-        <span> respaldar nuestras finanzas.</span> <br />
-        <br /> Nuestros canales de comunicación están administrados por latinos
-        lo cual garantiza un
-        <span> ambiente cultural compatible</span> con nuestra identidad.
+        {t("content1.content1-p1.0")}
+        <span> {t("content1.content1-p1.1")} </span>{" "}
+        {t("content1.content1-p1.2")}
+        <span> {t("content1.content1-p1.3")}</span> <br />
+        <br />
+        <span>{t("content1.content1-title2")}</span>
+        <br /> {t("content1.content1-p2.0")}
+        <span> {t("content1.content1-p2.1")}</span> <br />
+        <br /> {t("content1.content1-p2.2")}
+        <span> {t("content1.content1-p2.3")}</span>{" "}
+        {t("content1.content1-p2.4")}
       </p>
     </Content1Div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../../components/layout/layout";
 import styled from "@emotion/styled";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const ContactDiv = styled.div`
@@ -35,24 +36,26 @@ const Contact = () => {
     }
   `;
 
+  const [t, i18n] = useTranslation("global");
+
   return (
     <Layout>
       <ContactDiv>
         <h3>
-          <span>Contáctanos</span>
+          <span>{t("contact.contact-title")}</span>
         </h3>
 
         <div>
           <p>
-            Para más informacion, por favor contáctanos al correo{" "}
-            <span>cardanolatam@gmail.com</span>.<br />
-            Te invitamos a unirte a nuestro grupo de{" "}
+            {t("contact.contact-p1.0")}
+            <span>{t("contact.contact-p1.1")}</span>.<br />
+            {t("contact.contact-p1.2")}
             <a
               href="https://t.me/joinchat/NFPHBAvdIx162AoNnibCXg"
               className="logo"
               target="popup"
             >
-              <span>Telegram</span>
+              <span>{t("contact.contact-p1.3")}</span>
             </a>
             .
           </p>

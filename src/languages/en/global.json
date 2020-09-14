@@ -1,6 +1,6 @@
 {
   "tlgrm": {
-    "tlgrm-msg": "Si"
+    "tlgrm-msg": "If you are a delegator, join our telegram to win exclusive rewards!"
   },
 
   "navigation": {
@@ -26,5 +26,126 @@
     "boder-PerComision-content": "1.5%",
     "boder-FixComision-label": "Fixed Commission: ",
     "boder-FixComision-content": "340 ADAs"
+  },
+
+  "border-msg": {
+    "border-message": [
+      "*We work with the",
+      "minimum commission",
+      "provided by CARDANO"
+    ]
+  },
+
+  "index": {
+    "index-slogan": "Improving the finances of Latin America and the World"
+  },
+
+  "content1": {
+    "content1-title": "100% Latin",
+    "content1-title-header": "Pool run by latins for latins ",
+    "content1-p1": [
+      "We live the situation in Latin America and that is why we have a ",
+      "low commission rate ",
+      "to ",
+      "maximize your profits."
+    ],
+    "content1-title2": "TOGETHER WE’RE STRONGER!!",
+    "content1-p2": [
+      "Cardano is the perfect opportunity to ",
+      "back up our finances. ",
+      "Our communication channels are managed by Latinos, which guarantees a ",
+      "cultural environment that is compatible ",
+      "with our identity."
+    ]
+  },
+
+  "content2": {
+    "content2-title": "BENEFITS",
+    "content2-title-header": ["Start generating ", "passive incomes"],
+    "content2-p1": [
+      "Our service is ",
+      "open to ALL users ",
+      ", whether they are big investors or first-time investors.",
+      "Low commission ",
+      "without compromising the node’s quality."
+    ],
+    "content2-p2": [
+      "Extra incentives ",
+      "to our delegators such as monthly raffles with a percentage of the node’s profits.",
+      "We are associated with an open community of Latin American users where ",
+      "knowledge, experiences, and the latest news ",
+      "about CARDANO are shared.",
+      "We have a ",
+      "high-level technological infrastructure ",
+      "to satisfy all the needs of our service."
+    ]
+  },
+
+  "faqs": {
+    "faq1-title": "What is a mining pool?",
+    "faq1": [
+      "A pool is a computer in charge of verifying transactions ",
+      "on the Cardano network. As Cardano is a decentralized network, all the pools ",
+      "compete ",
+      "against each other to be in charge of validating transactions."
+    ],
+    "faq2-title": "What is ADAs mining?",
+    "faq2": [
+      "For the Cardano network to work, computers are needed to ",
+      "validate the transactions",
+      ", this process is called mining. The computer that succeeds in validating transactions ",
+      "is rewarded with incentives in ADA. ",
+      "The Cardano protocol assigns a pool as the one in charge of mining a transaction through a lottery where the odds of winning ",
+      "depend on the total amount of ADA the stake pool has",
+      ", and that is, the amount of ADAs that it has delegated."
+    ],
+    "faq3-title": "What is staking?",
+    "faq3": [
+      "Staking is a way of ",
+      "delegating trust ",
+      "to a Cardano pool so that it is ",
+      "more likely to mine transactions",
+      ". Delegating this trust has ",
+      "rewards",
+      "in the form of passive income that are generated from the profits that the pool has from mining ADA."
+    ],
+    "faq4-title": "How much profit can I get?",
+    "faq4": [
+      "The amount of passive income will depend on ",
+      "how many ADAs you delegate ",
+      "and how much ",
+      "percentage of profits the pool is willing to distribute ",
+      "among its delegators. For our pool, the expected profit is TBD."
+    ],
+    "faq5-title": "Calculate your earnings",
+    "faq5": ["Calculate your earnings with Cardano ", "here."]
+  },
+
+  "about": {
+    "about-title": "About us",
+    "about-p1": [
+      "We are a group of ",
+      "young professionals",
+      ", enthusiasts of the ",
+      "Cardano project",
+      ", whose main goal is to become the pool that Latin Americans deserve, committed to offering a service of great reliability and security."
+    ],
+    "about-p2": [
+      "We have a ",
+      "staff from various professional areas ",
+      "such as server management, web development, graphic design, business administration and finances, all this in order to cover the different ",
+      "points of interest ",
+      "that each of our clients may have and be able to give them the best advice to answer any questions that may arise."
+    ]
+  },
+
+  "contact": {
+    "contact-title": "Contact us",
+    "contact-p1": [
+      "For more information, please contact us at ",
+      "cardanolatam@gmail.com",
+      "We also invite you to join our ",
+      "Telegram group"
+    ]
   }
 }

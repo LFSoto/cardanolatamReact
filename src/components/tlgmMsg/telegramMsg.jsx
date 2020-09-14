@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaTelegram } from "react-icons/fa";
 import { RiCloseCircleLine } from "react-icons/ri";
 import styled from "@emotion/styled";
+import { useTranslation } from "react-i18next";
 
 const TlgmNotif = () => {
   const MsgContainer = styled.div`
@@ -52,6 +53,7 @@ const TlgmNotif = () => {
   `;
 
   const [mensaje, setMensaje] = useState(true);
+  const [t, i18n] = useTranslation("global");
 
   return mensaje ? (
     <MsgContainer className="contenedorMsj">
@@ -67,10 +69,7 @@ const TlgmNotif = () => {
         </Close>
       </Content>
       <Message>
-        <b>
-          ¡Si eres delegador, únete a nuestro telegram para ganar recompensas
-          exclusivas!
-        </b>
+        <b>{t("tlgrm.tlgrm-msg")}</b>
       </Message>
       <ButtonContainer
         href="https://t.me/joinchat/NFPHBAvdIx162AoNnibCXg"
