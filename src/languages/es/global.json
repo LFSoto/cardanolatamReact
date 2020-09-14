@@ -1,0 +1,30 @@
+{
+  "tlgrm": {
+    "tlgrm-msg": "Si"
+  },
+
+  "navigation": {
+    "nav-home": "Inicio",
+    "nav-about": "Sobre nosotros",
+    "nav-faqs": "Preguntas frecuentes",
+    "nav-contact": "Contáctanos"
+  },
+
+  "footer": {
+    "footer-msg": "Cardano Latinoamérica",
+    "footer-copyright": "© 2020 LATAMPOOL"
+  },
+
+  "boder": {
+    "boder-ticker-label": "Ticker: ",
+    "boder-ticker-content": "LATAM",
+    "boder-PoolId-label": "Pool ID: ",
+    "boder-PoolId-content": "Copialo haciendo click aquí!",
+    "boder-Pledge-label": "Pledge: ",
+    "boder-Pledge-content": "60.000",
+    "boder-PerComision-label": "Comision porcentual: ",
+    "boder-PerComision-content": "1.5%",
+    "boder-FixComision-label": "Comision fija*: ",
+    "boder-FixComision-content": "340 ADAs"
+  }
+}

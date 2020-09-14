@@ -1,7 +1,14 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaTelegram } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaTwitter,
+  FaTelegram,
+  FaYoutube,
+  FaInstagram,
+} from "react-icons/fa";
 import Navegacion from "../navigation/navigation.jsx";
 import styled from "@emotion/styled";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
   const Footer = styled.footer`
@@ -58,17 +65,31 @@ const Footer = () => {
     color: white;
   `;
 
+  const YouTube = styled(FaYoutube)`
+    height: 50px;
+    width: 50px;
+    color: white;
+  `;
+
+  const Instagram = styled(FaInstagram)`
+    height: 50px;
+    width: 50px;
+    color: white;
+  `;
+
   const CopyRight = styled.p`
     color: white;
     margin-top: 4%;
   `;
+
+  const [t, i18n] = useTranslation("global");
 
   return (
     <Footer id="Nav">
       <FooterContainer className="footer-container">
         <div>
           <SubTitle className="subTitulo">
-            <h1>Cardano Latinoamérica</h1>
+            <h1>{t("footer.footer-msg")}</h1>
           </SubTitle>
           <div className="col-izq">
             <Social>
@@ -87,10 +108,22 @@ const Footer = () => {
               >
                 <Telegram />
               </ContentLogo>
+              <ContentLogo
+                href="https://www.youtube.com/channel/UCZ2IDgLGBIWfEgStGnJxEjw"
+                target="popup"
+              >
+                <YouTube />
+              </ContentLogo>
+              <ContentLogo
+                href="https://www.instagram.com/latampool"
+                target="popup"
+              >
+                <Instagram />
+              </ContentLogo>
             </Social>
           </div>
           <Navegacion />
-          <CopyRight>© 2020 LATAMPOOL</CopyRight>
+          <CopyRight>{t("footer.footer-copyright")}</CopyRight>
         </div>
       </FooterContainer>
     </Footer>

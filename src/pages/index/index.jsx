@@ -7,6 +7,7 @@ import TlgmNoti from "../../components/tlgmMsg/telegramMsg";
 import border from "../../images/bordes.png";
 import Content1 from "./content1";
 import Content2 from "./content2";
+import { useTranslation } from "react-i18next";
 
 const Index = () => {
   const IndexContainer = styled.div`
@@ -72,6 +73,8 @@ const Index = () => {
     justify-content: space-between;
   `;
 
+  const [t, i18n] = useTranslation("global");
+
   return (
     <Layout>
       <IndexContainer>
@@ -88,26 +91,30 @@ const Index = () => {
               <BorderContainer>
                 <ul>
                   <li>
-                    Ticker: <span>LATAM</span>
+                    {t("boder.boder-ticker-label")}
+                    <span>{t("boder.boder-ticker-content")}</span>
                   </li>
                   <li>
-                    Pool ID:{" "}
+                    {t("boder.boder-PoolId-label")}
                     <span>
                       <CopyToClipboard text="c922da2949ca73c3300326dc5f9dc4cb39cf6c855ab8256dffdb9289">
                         <CopyClipboard>
-                          <span>Copialo haciendo click aquí!</span>
+                          <span>{t("boder.boder-PoolId-content")}</span>
                         </CopyClipboard>
                       </CopyToClipboard>
                     </span>
                   </li>
                   <li>
-                    Pledge: <span>60.000</span>
+                    {t("boder.boder-Pledge-label")}{" "}
+                    <span>{t("boder.boder-Pledge-content")}</span>
                   </li>
                   <li>
-                    Comision porcentual: <span> 1.5%</span>
+                    {t("boder.boder-PerComision-label")}{" "}
+                    <span> {t("boder.boder-PerComision-content")}</span>
                   </li>
                   <li>
-                    Comision fija*: <span>340 ADAs</span>
+                    {t("boder.boder-FixComision-label")}{" "}
+                    <span>{t("boder.boder-FixComision-content")}</span>
                   </li>
                 </ul>
               </BorderContainer>
